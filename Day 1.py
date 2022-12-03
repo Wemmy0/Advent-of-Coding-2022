@@ -9,5 +9,5 @@ with open('Day 1 Input') as file:
             end.append(count)
             count = 0
 end.sort()
-print(end[0])
+print(end[len(end)-1])
 print(end[len(end)-1]+end[len(end)-2]+end[len(end)-3])
