@@ -3,7 +3,7 @@ import string
 end = []
 lower_alphabet = string.ascii_lowercase
 upper_alphabet = string.ascii_uppercase
-with open('Day 3 Input') as file:
+with open('Puzzle Inputs/Day 3 Input') as file:
     lines = file.readlines()
     count = 0
     for i in range(0, len(lines), 3):

@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 
-inputs, commands = open("Day 5 Input").read().split("\n\n")
+inputs, commands = open("Puzzle Inputs/Day 5 Input").read().split("\n\n")
 inputs = inputs.split("\n")
 inputs.pop()
 commands = commands.split("\n")

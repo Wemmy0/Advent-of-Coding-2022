@@ -4,7 +4,7 @@ outcome = {"A": "Y", "B": "Z", "C": "X"}
 points = {"X": 1, "Y": 2, "Z": 3}
 translate = {"A": "X", "B": "Y", "C": "Z"}
 
-with open('Day 2 Input') as file:
+with open('Puzzle Inputs/Day 2 Input') as file:
     lines = file.readlines()
     for i in lines:
         tmp = i.split(" ")

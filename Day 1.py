@@ -1,5 +1,5 @@
 end = []
-with open('Day 1 Input') as file:
+with open('Puzzle Inputs/Day 1 Input') as file:
     lines = file.readlines()
     count = 0
     for i in range(len(lines)):

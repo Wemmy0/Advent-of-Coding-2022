@@ -1,5 +1,5 @@
 out = []
-with open('Day 4 Input') as file:
+with open('Puzzle Inputs/Day 4 Input') as file:
     lines = list(file.readlines())
     for i in range(len(lines)):
         out.append(lines[i].strip("\n").split(","))

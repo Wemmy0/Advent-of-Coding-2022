@@ -1,4 +1,4 @@
-with open('Day 6 Input') as file:
+with open('Puzzle Inputs/Day 6 Input') as file:
     line = file.readline().strip("\n")
 
 def find(num):
